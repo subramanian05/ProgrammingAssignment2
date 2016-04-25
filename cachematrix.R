@@ -1,7 +1,4 @@
-## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
+## Creates a list containing getters and setters
 ## get and set are used for getting/setting the original matrix
 ## getinverse and setinverse are used for getting/setting the inverse of a matrix
 
@@ -21,8 +18,6 @@ makeCacheMatrix <- function(x = matrix()) {
   
 }
 
-
-## Write a short comment describing this function
 ## Takes a list object containing the methods , returned by makeCachedMatrix()
 ## returns the inverse of a matrix computed from scratch / or cached object
 cacheSolve <- function(x, ...) {
